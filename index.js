@@ -51,7 +51,7 @@ console.log(url)
 const oldName = "bayo";
 const oldAge = "15"
 
-console.log("I know" + oldName + "15" + "years old");
+console.log("I know" + oldName + "he is" + oldAge + "years old");
 
 let name1 = "John"
 let name2 = "Matthew"
@@ -88,3 +88,92 @@ const person = {firstName:"Rita", lastName:"Oyeyiola"};
 // 9. Symbol
 console.log("Symbol values are guaranteed to be unique, which means no two 'symbol' values are equal, even if they have the same description")
 const uniqueSymbol = Symbol ();
+
+
+let food;
+
+console.log(food)
+
+
+
+// // params or argument or placeholder or local var
+
+// function greet() {      // declare function
+//     console.log("Hello my people");
+// }
+// greet()  // invoke or call
+
+// function sum(x) {
+//     console.log(2 + x);
+// }
+// sum(5)  // argument
+
+
+
+function greet(name){
+    console.log("hello" + name)
+}
+
+greet("Gabriel")
+greet("Rejoice")
+
+
+
+function addition(a, b) {
+    console.log(a+b)
+}
+
+addition(2,2)
+addition(3,2)
+addition(4,2)
+addition(5,2)
+
+
+let sum1 = 2 + 2
+let sum2 = 3 + 2
+let sum3 = 4 + 2
+let sum4 = 5 + 2
+
+
+function country(countryname, first3letters){
+    console.log(countryname + " " + first3letters)
+}
+country("Nigeria","Nig")
+country("Ghana","Gha")
+country("Brazil","Bra")
+country("Tokyo","Tok")
+country("Paris","Par")
+
+
+
+// function sum(a,b = 3){
+//     console.log(a + b + "=")
+// }
+// sum("2 + 1", "3")
+
+    function sum(a,b){
+        // console.log(a + b)
+        console.log(a + "+" + b + "=", a + b)
+    }
+    sum(2,3)
+    sum(2,2)
+    sum(4,4)
+
+
+
+    function multiply(a,b){
+        // console.log(a * b)
+        console.log(a + "*" + b + "=", a * b)
+    }
+    multiply(4,3)
+    multiply(2,2)
+    multiply(5,2)
+
+
+    function minus(a,b){
+        // console.log(a - b)
+        console.log(a + "-" + b + "=", a - b)
+    }
+    minus(10,2)
+    minus(5,3)
+    minus(20,10)
