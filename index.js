@@ -5,7 +5,7 @@
 
 console.log("hey");
 
-const name = "Silvia"
+// const name = "Silvia"
 
 console.log(2 + 2);
 
@@ -118,7 +118,6 @@ greet("Gabriel")
 greet("Rejoice")
 
 
-
 function addition(a, b) {
     console.log(a+b)
 }
@@ -146,11 +145,6 @@ country("Paris","Par")
 
 
 
-// function sum(a,b = 3){
-//     console.log(a + b + "=")
-// }
-// sum("2 + 1", "3")
-
     function sum(a,b){
         // console.log(a + b)
         console.log(a + "+" + b + "=", a + b)
@@ -177,3 +171,247 @@ country("Paris","Par")
     minus(10,2)
     minus(5,3)
     minus(20,10)
+
+    // object
+    let name5 = "Tayo"
+
+    let car1 = {
+        color: "pink",
+        brand: "toyota",
+        plateNumber: 257825372,
+        model: "corolla",
+        tyreColor: "black",
+        year: 2010,
+        drive: function () {
+            console.log("i am driving")
+        }
+    }
+
+    let person1 = {
+        skinColor:"black",
+        year:15,
+        name:"Toyin",
+        address:{
+            streetName: "kayode street",
+            localGovt: "shomolu",
+            state: "Lagos", 
+                  
+        },       
+        greet: function greet() {
+            console.log("Hello guys");
+        }
+    }
+
+        console.log(person1.address.localGovt)
+
+    console.log("old object", person)
+
+    // person1.age = 20
+
+    console.log("new onject", person)
+    console.log(person1.name)
+
+    // let phone = {
+    //     color : "white",
+    //     brand : "tecno",
+    //     charger : "type C",
+    //     typing: function typing(){
+    //         console.log("Open whatsapp");
+    //     }   
+    // }
+    // console.log(phone.brand)
+     
+    // phone.brand = "white"
+    // console.log(phone.color)
+
+// Array
+    let animal = ["lion", "goat"]
+
+    let cars = ["toyota", "benz", "lexus", "bentley"]
+    console.log(cars[2])
+    console.log(cars)
+
+    cars[2] = "porsche"
+    console.log(cars)
+
+    console.log(animal[1])
+
+
+    let phone = ["iphone", "samsung", "tecno", "nokia"]
+    console.log(phone[1])
+    console.log(phone)
+    
+    phone[1] = "itel"
+
+//     let persons = [{
+//         gender: "female",
+//         ageBracket: "15-20",
+//         school: "queens college",
+//         address: {
+//             street: "adekunle street",
+//             city:"Lagos"
+//         }
+//     },
+//     {
+//         gender: "female",
+//         ageBracket: "15-20",
+//         school: "queens college",
+//         address: {
+//             street: "adekunle street",
+//             city:"Lagos" 
+//     }
+// ]
+
+let persons = [
+    {
+        gender: 'female',
+        ageBracket: "15-20",
+        school: "queens college",
+        address: {
+            street: "adekunle street",
+            city: "lagos"
+        }
+    },
+    {
+        gender: 'male',
+        ageBracket: "15-20",
+        school: "Kings college",
+        address: {
+            street: "adekunle street",
+            city: "lagos"
+        }
+    },
+    "Adebayo"      
+]
+    console.log(persons[0].gender),
+    console.log(persons[1].gender),
+
+    persons[0].address.city = "ogun",
+    persons[1].address.city = "ogun",
+    
+    persons[2] = "Rita"
+    console.log(persons[2])
+    
+// access both genders 
+// change city to ogun
+// change adebayo to your name
+
+    // array is zero index
+
+    // >,<,<=,>=,==,===,
+    // > = greater than
+    // < = less than
+    // 
+    let rainFall = true
+    let sunShine = false
+
+    if (rainFall) {
+        console.log("yes rain fall")
+    } else {
+        console.log("no rain didnt fall")
+    }
+
+    // // if (condition){
+    //     // code to be executed
+    // }
+
+    // != ==
+    // != ===
+
+    //  let age2 = 18;
+    //  if (age > 18){
+    //     console.log("yes age is greater");
+    //  }else if (age >= 20){
+
+    //  }
+     let age1 = 5;
+
+     if (age > 20){
+        console.log("age is greater than 20")
+     }else if (age < 3){
+        console.log("age is less than 3")
+     } else {
+        console.log("no")
+     }
+
+
+     let dogBark = true;
+     let lionRoar = false
+
+     if (!dogBark) {
+        console.log("aaa")
+     } else if (!!dogBark) {
+        console.log("cccc")
+     }
+     else if (!lionRoar) {
+        console.log("bbb")
+     }
+     else {
+        console.log("no")
+     }
+
+      if(2!=2) {
+        console.log("yes")
+      }else{
+        console.log("No")
+      }
+
+    //   OR & AND
+    // true || false = true
+    // true || true = true
+    // false || false = false
+
+    // true && false = false
+    // true && true = true
+    // false && false = false
+
+    // let votersAge = true;
+    // let citizenship = false
+
+    //   if (votersAge) {
+    //     console.log("Voter 1 is 20yrs old")
+    //   }else if (votersAge) {
+    //     console.log("voter 2 is 25yrs old")
+    //   }
+
+    //   if(citizenship) {
+    //     console.log("No")
+    //   } else {
+    //     console.log("Yes")
+        
+    //   }
+    //   if (votersAge) {
+    //     console.log("eligible")
+    //   } else {
+    //     console.log ("not eligible")
+    //   }
+    //   if (!votersAge) {
+    //     console.log("eligible")
+    //   } else {
+    //     console.log("not eligible")
+    //   }
+
+    // Assignment
+    let votersAge = prompt("Enter your age");
+      console.log(votersAge)
+
+    let citizenship = prompt("Are you a citizen?: (Yes/No)");
+      console.log(citizenship)
+
+      if (votersAge >= 18 && citizenship === "Yes") {
+        console.log ("voter is eligible to vote")
+      }
+      else {
+        console.log("voter is not eligible to vote")
+      }
+
+
+
+
+
+     
+
+
+        
+
+
