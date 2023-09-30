@@ -5,13 +5,56 @@ a{
     color: brown;
 }
 h2{
-    color: aqua;
+    color: black;
 }
 footer{
-    color: rgb(255, 251, 251);
-    background-color: black;
+    color: rgb(226, 19, 19);
+    background-color: grey;
     width: fit-content;
 }
-h1{
-    color: brown;
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    padding-right: 100px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+form {
+    margin: 0;
+}
+
+
+label {
+    color: #a50a0a;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+input{
+    width: 250px;
+    stroke-width: 20px
+}
+
+textarea {
+    width: 100;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: rgb(250, 53, 38);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+ .button:hover {
+    background-color: #aa3434;
+ }
